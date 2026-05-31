@@ -1,0 +1,10 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "code-whisperer": {
+      "type": "local",
+      "command": ["/bin/bash", "-c", "cd /home/ashwin/python/mcp && exec /home/ashwin/python/mcp/venv/bin/code-whisperer"],
+      "enabled": true
+    }
+  }
+}

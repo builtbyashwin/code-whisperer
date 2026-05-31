@@ -1,0 +1,16 @@
+[project]
+name = "code-whisperer"
+version = "0.1.0"
+description = "An MCP server for AI-powered code review and analysis using Groq"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp>=1.0.0",
+    "groq>=1.0.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.scripts]
+code-whisperer = "code_whisperer:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
