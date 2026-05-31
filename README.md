@@ -15,7 +15,7 @@ MCP server that gives AI-powered code analysis to any MCP client. Uses Groq for 
 ```bash
 python -m venv venv
 source venv/bin/activate
-pip install -e .
+pip install -r requirements.txt
 cp .env.example .env   # add your GROQ_API_KEY
 code-whisperer
 ```
